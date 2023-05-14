@@ -87,8 +87,8 @@ public class ModelDAO {
 		}
 
 		// 오픈API를 활용하여 가입 시 입력했던 이메일 주소로 비밀번호를 메일 보내주는 기능을 정의
-		final String serviceUser = "chatting151685"; // 아이디 (gmail 기준)
-		final String servicePass = "ekaelmmxrnuclyym"; // 비밀번호, 2단계인증 활성화, 인증키-> 이메일, IMAP 켜기
+		final String serviceUser = "yourid"; // 아이디 (gmail 기준)
+		final String servicePass = "yourpassword"; // 비밀번호, 2단계인증 활성화, 인증키-> 이메일, IMAP 켜기
 
 		// Property에 SMTP 서버 정보 설정
 		Properties prop = new Properties();
